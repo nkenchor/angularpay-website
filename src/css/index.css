@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* light: "#fcfbff",
+dark: "##191919", */
+
+:root {
+  --background-light: #fcfbff;
+  --background-dark: #191919;
+  --accent-color: #ffb201;
+  --primary-color: #462aa5;
+  --secondary-color: #2aa54b;
+  --tertiary-color: #160b3e;
+  --quartenary-color: #b4b5b4;
+
+  --colorWhite: #fff;
+  --colorPurple: #462aa5;
+  --colorGrey: #707070;
+  --colorGreen: #00b442;
+  --colorGreyTextDesc: #c4c4c4;
+  --colorGreyCaption: #efefef;
+  --colorGreySectionBG: rgba(#efefef, 0.44);
+  --color000: #000;
+  --colorffb201: #ffb201;
+}
+
+html,
+body,
+* {
+  font-family: "Archivo", "Inter", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fff;
+}
+
+svg {
+  fill: currentColor;
+}
+
+.custom .p-scrollpanel-wrapper {
+  border-right: 9px solid #f4f4f4;
+}
+
+.custom .p-scrollpanel-bar {
+  background-color: var(--accent-color);
+  opacity: 1;
+  transition: background-color 0.3s;
+}
+
+.custom .p-scrollpanel-bar:hover {
+  background-color: #135ba1;
+}
+/* 
+.material-icons.md-18 {
+  font-size: 18px;
+}
+.material-icons.md-24 {
+  font-size: 24px;
+}
+.material-icons.md-36 {
+  font-size: 36px;
+}
+.material-icons.md-48 {
+  font-size: 48px;
+}
+
+.material-icons.md-dark {
+  color: rgba(0, 0, 0, 0.54);
+}
+.material-icons.md-dark.md-inactive {
+  color: rgba(0, 0, 0, 0.26);
+}
+
+.material-icons.md-light {
+  color: rgba(255, 255, 255, 1);
+}
+.material-icons.md-light.md-inactive {
+  color: rgba(255, 255, 255, 0.3);
+} */
